@@ -6,9 +6,10 @@ class Meter:
     unreported_high_frequency_consumption = 0.0
     unreported_low_frequency_consumption = 0.0
     neighbours = []
+
     def __init__(self, internal_id, energy_usage):
         self.internal_id = internal_id
         self.energy_usage = energy_usage
 
-    def add_neighbour(other_node):
-        neighbours += other_node
+    def add_neighbour(self, other_node):
+        self.neighbours.append(other_node)
