@@ -13,8 +13,8 @@ class Meter:
         self.internal_id = internal_id
     def add_neighbour(other_meter):
         neighbour += other_meter
-    
-    
+
+
 def parse_topology(topology):
     with open("topologies/" + str(topology) + ".txt", 'r') as file:
         string = file.read()
